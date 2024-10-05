@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "ReplicateUI",
+  "version": "6.6.6",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "512": "icon.png"
+  },
+  "action": {
+    "default_title": "Download HTML"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
